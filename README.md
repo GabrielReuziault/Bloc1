@@ -8,6 +8,7 @@ La méthode Post est utilisé par le navigateur pour demander au serveur une ré
 La différence clé entre les méthodes POST et GET est que GET transporte le paramètre dans la chaîne d'URL, tandis que POST transporte le paramètre dans le corps du message, ce qui le rend plus sûr le transfère des données du client au serveur avec le protocole.
 
 2)
+<<<<<<< HEAD
 Je n'ai pas compris
 
 3)
@@ -16,3 +17,10 @@ Le HTTP est dit extensible car celui-ci évolue via des protocles. Donnée suppl
 4)
 Lors d'une recherche, si on valide le panier, celui-ci est stocké mais il n'est plus relié avec l'utilisateur : on ne sait plus c'est qui.
 Cookie de session retrouver les informations lié a nous car le serveur ne s'en souviendra plus.
+=======
+
+3)Le HTTP est dit extensible car celui-ci évolue via des protocles. Donnée supplémentaire(en-tête http). Chaque en-tête a un ensemble de valeur possible.
+
+4)Lors d'une recherche, si on valide le panier, celui-ci est stocké mais il n'est plus relié avec l'utilisateur : on ne sait plus c'est qui.
+Cookie de session retrouver les informations lié a nous car le serveur ne s'en souviendra plus.
+>>>>>>> c47357aa31f4762767e1c898180772c088c74ee5
