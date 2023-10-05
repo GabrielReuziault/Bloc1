@@ -1,0 +1,36 @@
+div{
+	text-align: center;
+	
+}
+body{
+	background-color: #EBE2E2;
+	background-image: url("../../images/conseil_gestion.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height:120vh;
+}
+.main{
+	
+	
+}
+.conseil{
+	color: white;
+	background-color: orange;
+	border: 5px solid orange;
+	margin-left: 35%;
+	margin-right: 35%;
+	padding: 15px;
+	border-radius: 15px;
+}
+.conseil #text1{
+	padding: 6px;
+	font-size: 15px;
+}
+.conseil #text2{
+	font-size: 40px;
+}
+.conseil #text3{
+	font-size: 12px;
+	font-weight: 100;
+}
