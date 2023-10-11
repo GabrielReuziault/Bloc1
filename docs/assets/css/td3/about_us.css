@@ -1,0 +1,162 @@
+body{
+  margin: 0px;
+}
+
+#image_logo {
+  display: flex;
+  justify-content: left;
+  padding: 0;
+  position: sticky;
+  list-style: none;
+}
+nav {
+  background: url("../../images/header-bg.jpg");
+  background-position: center;
+  color: #fff;
+  justify-content: space-between;
+  justify-content: right;
+  padding: 10px;
+  position: relative;
+  margin: 0;
+}
+
+nav ul {
+  position: sticky;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+  padding-right: 8%;
+
+}
+
+nav ul li {
+  display: flex;
+  align-items: baseline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+.column1{
+  width: 10%;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.column2 {
+  width: 20%;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.column2 ul{
+  display: flex-direction: column;
+  text-align: start;
+  font-size: 10px;
+  list-style: none;
+}
+
+.column2 ul:hover{
+  color:aqua;
+}
+#liste_c1{
+  width: 12px;
+  height: auto;
+  margin-right: 5px;
+}
+.column3 {
+  width: 40%;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#img_c2{
+  margin-top: 10px;
+  width:100%;
+  height:auto;
+}
+h3{
+   color:rgb(27, 138, 162)
+}
+.column4 {
+  width: 20%;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#img_c3{
+  margin-top: 10px;
+  width:100%;
+  height:auto;
+}
+
+.column5{
+  width: 10%;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.category-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.separator {
+  border-top: 5px solid rgb(27, 138, 162);
+  margin-top: 10px;
+  border-radius: 5vw 5vw 5vw 5vw;
+  
+}
+.my-button {
+  font-size: 10px;
+  background-color: cadetblue;
+  border-radius: 2vw 2vw 2vw 2vw;
+  margin: 4px;
+  padding: 8px 10px;
+  border: none;
+  color: white;
+}
+
+.my-button:hover {
+  background-color: rgb(39, 118, 119);
+  color: #fff;
+}
+
+.read-button {
+  font-size: 10px;
+  background-color: rgb(173, 173, 173);
+  border-radius: 2vw 2vw 2vw 2vw;
+  margin: 4px;
+  padding: 20px 50px;
+  border-color: gray;
+  
+}
+
+.read-button:hover {
+  background-color: gray;
+  
+}
+
+footer{
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: url("../../images/header-bg.jpg");
+  background-position: center;
+  text-align: center;
+}
