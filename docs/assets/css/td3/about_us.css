@@ -59,13 +59,13 @@ nav a:hover {
   box-sizing: border-box;
 }
 .column2 ul{
-  display: flex-direction: column;
+  flex-direction: column;
   text-align: start;
   font-size: 10px;
   list-style: none;
 }
 
-.column2 ul:hover{
+.column2 li:hover{
   color:aqua;
 }
 #liste_c1{
